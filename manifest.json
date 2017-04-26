@@ -1,0 +1,17 @@
+{
+  "manifest_version": 2,
+  "name": "Gamazon",
+  "version": "0.1",
+  "content_scripts": [
+    {
+      "matches": [
+        "https://www.amazon.com/*",
+        "https://smile.amazon.com/*"
+      ],
+      "js": ["jquery-3.2.1.min.js", "content.js"]
+    }
+  ],
+  "permissions": [
+    "https://boardgamegeek.com/"
+  ]
+}
